@@ -30,10 +30,10 @@ from geometry_msgs.msg import PoseWithCovarianceStamped, Quaternion, Twist
 map_dir = "/home/ubuntu/map/"  
 
 # MQTT broker details
-broker_address = "6f8f754a43094b74bbda31621c2316ec.s1.eu.hivemq.cloud"
+broker_address = "your_host"
 port = 8883
-username = "wonrawit"
-password = "Howitzer23092001"
+username = "your_username"
+password = "your_password"
 
 # position and map setting
 pose = PoseWithCovarianceStamped()
